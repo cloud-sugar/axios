@@ -10,7 +10,7 @@
     "format": "npx prettier --write src",
     "lint": "npx eslint src --ext .js,.jsx,.ts,.tsx",
     "packlist": "npx npm-packlist",
-    "prepublishOnly": "npm test && npm run --silent build",
+    "prepublishOnly": "npm run --silent build",
     "test": "npx jest"
   },
   "author": "Craig Younker <cyounker@cloudsugar.net>",
